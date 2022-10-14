@@ -1,4 +1,114 @@
 {
-    "vscode-pets.petColor": "white",
-    "git.ignoreLimitWarning": true
+    "python.defaultInterpreterPath": "C:\\Users\\Charlie\\anaconda3\\envs\\tf\\python.exe",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "terminal.integrated.gpuAcceleration": "off",
+    "files.autoSave": "afterDelay",
+    
+    //文字編輯器
+    "editor.fontFamily": "'JetBrains Mono SemiBold', 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontSize": 13,
+    "editor.fontLigatures":  true, //啟用/停用連字
+    "editor.renderWhitespace": "boundary", //呈現空白字符的方式
+    "editor.snippetSuggestions": "top", // 將程式碼片段建議顯示在頂端
+    //工作臺
+    //"workbench.colorTheme": "", //主題
+    "workbench.settings.editor": "ui",
+    "workbench.colorCustomizations": {
+
+    
+                                        "editor.background": "#0d1117", //背景
+                                        "activityBar.background": "#010409", //左邊控制欄背景
+                                        "sideBar.background": "#161b22", //左邊控制欄拉開的背景
+                                        "list.hoverForeground": "#f0f6fc",//滑鼠停留在右側的資料欄位文字顏色
+                                        "list.hoverBackground": "#26292b",//滑鼠停留在右側的資料欄位背景顏色
+                                        "list.inactiveSelectionForeground": "#6cffec", //滑鼠選取在右側的資料欄位顏色
+                                        "list.invalidItemForeground": "#da3633",
+                                        "list.errorForeground": "#da3633",
+                                        "list.warningForeground": "#da3633",
+                                        "editorGroup.border": "#f0f6fc", //視窗分割條顏色
+                                        "statusBar.background": "#202325" //底下資訊欄背景顏色
+                                    },
+    //文字顏色
+    "editor.tokenColorCustomizations": {
+        
+                                        // "comments":"#6e7681", //註解顏色
+                                        "functions": "#d2a8ff", //宣告函示顏色
+                                        "keywords": "#ffa198", //關鍵字顏色
+                                        "variables": "#f8e3a1", //變數顏色
+                                        "numbers": "#79c0ff" , //數字顏色
+                                        "strings": "#cae8ff",//字串顏色
+                                        "types": "#d2a8ff", //宣告類型顏色 ex:range
+
+                                        "textMateRules": [
+                                            { 
+                                                //if, else, try etc.
+                                                "scope":"keyword.control",//if, else, try etc.
+                                                "settings": {
+                                                    "foreground": "#ffa198",
+                                                    "fontStyle": "italic"
+                                                }
+                                            },
+                                            {   
+                                                //算術符號
+                                                "scope":[                  
+                                                    "keyword.operator",
+                                                    "keyword.operator.comparison",
+                                                    "keyword.operator.arithmetic",
+                                                    "keyword.operator.assignment",
+                                                    "keyword.operator.logical",
+                                                    "keyword.operator.increment",
+                                                    "keyword.operator.bitwise.shift",
+                                                    "entity.name.namespace" //導入函示
+                                                ],
+                                                "settings": {
+                                                    "foreground": "#FFFFFF",
+                                                    "fontStyle": "italic"
+                                                }
+                                            },
+                                            {
+                                                //註解
+                                                "scope":[             
+                                                    "comment",
+                                                    "comment.line",
+                                                    "comment.block",
+                                                    "comment.block.documentation",
+                                                ],
+                                                "settings": {
+                                                    "foreground": "#6e7681",
+                                                    "fontStyle": "italic"
+                                                }
+                                            },
+                                            {   
+                                                //標點符號
+                                                "scope":[
+                                                    "punctuation.terminator",
+                                                    "punctuation.terminator.statement",
+                                                    "punctuation.separator.colon.range-based",
+                                                    "punctuation.separator.delimiter.comma",
+                                                    "punctuation.separator.period",
+                                                    "keyword.control.ternary"
+                                                ],
+                                                "settings": {
+                                                    "foreground": "#ffffff",
+                                                    "fontStyle": "italic"
+                                                }
+                                            },
+                                            {//
+                                                "scope": [
+                                                    "invalid"
+                                                ],
+                                                "settings": {
+                                                    "foreground": "#da3633"
+                                                }
+                                            }
+                                        ]
+
+                                    }
+                                 
 }
+
+//https://medium.com/az-%E4%B8%8B%E7%AD%86%E8%A8%98/vs-code-%E5%85%A5%E9%96%80-%E4%BD%BF%E7%94%A8%E8%80%85%E8%A8%AD%E5%AE%9A-85279307f510
+//https://blog.csdn.net/NEKOic/article/details/118855221?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-118855221-blog-106555650.pc_relevant_layerdownloadsortv1&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-118855221-blog-106555650.pc_relevant_layerdownloadsortv1&utm_relevant_index=1
+//https://github.com/zack-404/themeDemo/blob/main/themeDemo
